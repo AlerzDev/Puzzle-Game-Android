@@ -110,7 +110,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:ems="10"
-            android:hint="User"
+            android:hint="@string/username"
             android:textColor="@color/colorWhite"
             android:textColorHint="@color/colorAccent"
             android:inputType="textPersonName"
@@ -126,7 +126,7 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
             android:ems="10"
-            android:hint="Password"
+            android:hint="@string/password"
             android:textColor="@color/colorWhite"
             android:textColorHint="@color/colorAccent"
             android:inputType="textPassword"
@@ -143,15 +143,16 @@
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="12dp"
-            android:text="Log in"
+            android:text="@string/log_in"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.39"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/passEditText" />
 
-        <com.facebook.login.widget.LoginButton
+        <Button
             android:background="@color/colorWhite"
             android:textColor="@color/colorPrimary"
+            android:text="@string/sing_up"
             android:id="@+id/singUpButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"

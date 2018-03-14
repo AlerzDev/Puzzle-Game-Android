@@ -21,4 +21,16 @@
 
     <string name="facebook_app_id">2341342252558552</string>
     <string name="fb_login_protocol_scheme">fb2341342252558552</string>
+    <string name="sing_up">Sing Up</string>
+    <string name="log_in">Log in</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="email">Email</string>
+    <string name="repeat_password">Repeat password</string>
+
+    <string-array name="gender_arrays">
+        <item>Girl</item>
+        <item>Men</item>
+    </string-array>
+
 </resources>
